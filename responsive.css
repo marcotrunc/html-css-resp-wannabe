@@ -1,0 +1,29 @@
+/* La lezione dove vuoi tu */
+@media  screen and (max-width: 420px) {
+    .container{
+        margin:0;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    #lezioni .row>.left,
+    #lezioni .row>.right{
+        width: 100%;
+        float: none;
+    } 
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        float: none;
+        width: 100%;
+    }   
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        margin-top: 20px;
+    }
+}
